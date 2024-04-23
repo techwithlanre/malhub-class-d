@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- <div>nmckcnvk</div> -->
+</head>
+<body>
+    
+
+
+    <script>
+        //Arithmetical Operators
+        
+        //Addition
+        var num1 = "115";
+        var num2 = 20;
+        //console.log(parseFloat(num1));
+
+        /*console.log(num1 - num2);
+        console.log(num1 * num2);
+        console.log(num1 / num2);
+        */
+        //console.log(num1 % num2);
+
+
+        //logical operators
+
+        var noOfOranges = 20;
+        var canByOrange = false;
+        var walletBalance = 100;
+        var eachOrangePrice = 50;
+        var totalOrangePrice = eachOrangePrice * noOfOranges;
+        console.log(totalOrangePrice);
+
+        if(canByOrange == true) {
+            if(walletBalance >= totalOrangePrice) {
+                console.log('You can buy');
+            }
+        }
+
+        if(canByOrange == true || walletBalance >= totalOrangePrice) {
+            console.log('You can buy');
+        } else {
+            console.log('You can not buy at the moment');
+            var amountNeeded = totalOrangePrice - walletBalance;
+            //console.log("Insufficient balance. Please  fund your wallet with", amountNeeded);
+        }
+
+
+
+        
+            
+    </script>
+
+</body>
+</html>
