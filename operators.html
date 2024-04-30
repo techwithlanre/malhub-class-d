@@ -32,25 +32,100 @@
         var walletBalance = 100;
         var eachOrangePrice = 50;
         var totalOrangePrice = eachOrangePrice * noOfOranges;
-        console.log(totalOrangePrice);
+        //console.log(totalOrangePrice);
 
         if(canByOrange == true) {
             if(walletBalance >= totalOrangePrice) {
-                console.log('You can buy');
+                //console.log('You can buy');
             }
         }
 
         if(canByOrange == true || walletBalance >= totalOrangePrice) {
-            console.log('You can buy');
+            //console.log('You can buy');
         } else {
-            console.log('You can not buy at the moment');
+            //console.log('You can not buy at the moment');
             var amountNeeded = totalOrangePrice - walletBalance;
             //console.log("Insufficient balance. Please  fund your wallet with", amountNeeded);
         }
 
 
 
-        
+        //Assignment Operator
+        let schoolName = 'University of Ibadan';
+        let age = 25;
+
+        let noOfApples = 20;
+        let quantityPurchased = 10;
+        let quantitySold = 25;
+        noOfApples = noOfApples + quantityPurchased; //30
+        noOfApples += quantityPurchased;
+        noOfApples /= quantityPurchased;
+        noOfApples *= quantityPurchased;
+        noOfApples %= quantityPurchased;
+        //noOfApples -= quantitySold;
+        //console.log(noOfApples);
+
+        //Comparison Operators
+
+        /* 
+        == exactly equal to
+        != not equal to
+        > greater than
+        < less than
+        >= greater or equal to
+        <= less than or equal to
+        === strictly equal to
+        !== not strictly equal to
+        */
+
+        var num3 = 23;
+        var num4 = 25;
+
+
+        // Conditional Statement
+        if (num3 < num4) {
+            if (num3 == 23) {
+                console.log('num3 is 23');
+            } else {
+                console.log('num3 is not equal to 23')
+            }
+        } else {
+            alert(' I am tired');
+        }
+
+        /* console.log(num3 == num4);
+        console.log(num3 != num4);
+        console.log(num3 > num4);
+        console.log(num3 < num4);
+        console.log(num3 >= num4);
+        console.log(num3 <= num4);
+        console.log(num3 === num4);
+        console.log(num3 !== num4); */
+
+
+        /* if (num3 != num4) {
+            console.log(true);
+        }
+
+        if (num3 > num4) {
+            console.log('num3 is equal to num4');
+        }
+
+        if (num3 <= num4) {
+            console.log('num3 is equal to num4');
+        }
+
+        if (num3 >= num4) {
+            console.log('num3 is equal to num4');
+        }
+
+        if (num3 === num4) {
+            console.log('num3 is equal to num4');
+        }
+
+        if (num3 !== num4) {
+            console.log('num3 is equal to num4');
+        } */
             
     </script>
 
